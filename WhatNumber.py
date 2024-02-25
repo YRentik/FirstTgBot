@@ -10,7 +10,7 @@ bot = Bot(BOT_TOKEN)
 dp = Dispatcher()
 
 # кол-во попыток
-ATTEMPTS = 7
+ATTEMPTS = 6
 
 # Объявляем пользователя
 user = {'in_game': False,
