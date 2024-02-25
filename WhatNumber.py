@@ -10,7 +10,7 @@ bot = Bot(BOT_TOKEN)
 dp = Dispatcher()
 
 # кол-во попыток
-ATTEMPTS = 6
+ATTEMPTS = 5
 
 # словарь для хранения данных пользователя
 users = {}
@@ -52,6 +52,11 @@ async def process_start_command(message: Message):
         }
 
 
+#    await message.answer(
+#        f'Вас зовут: {users[message.from_user.first_name][]}'
+#   )
+
+
 # хендлер для /help
 @dp.message(Command(commands='help'))
 async def process_help_command(message: Message):
@@ -60,7 +65,7 @@ async def process_help_command(message: Message):
         f'а вам нужно его угадать\nУ вас есть {ATTEMPTS} '
         f'попыток\n\nДоступные команды:\n/help - правила '
         f'игры и список команд\n/cancel - выйти из игры\n'
-        f'/stat - посмотреть статистику\n\nДавай сыграем?'
+        f'/stat - посмотреть статистику\n\nДавай сыграем?\nНапиши мне "Да"'
     )
 
 
@@ -71,7 +76,7 @@ async def process_stat_command(message: Message):
         f'Всего игр сыграно: {users[message.from_user.id]["total_games"]}\n'
         f'Игр выиграно: {users[message.from_user.id]["wins"]}\n'
         f'Игр проиграно: {users[message.from_user.id]['loss']}'
-        # f'Вас зовут: {users[message.from_user.first_name]}'
+
     )
 
 
