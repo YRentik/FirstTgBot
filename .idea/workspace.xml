@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b4b290d-a641-48d0-a850-7450f16e78e8" name="Changes" comment="test">
+    <list default="true" id="3b4b290d-a641-48d0-a850-7450f16e78e8" name="Changes" comment="теперь это многопользовательская игра">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WhatNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/WhatNumber.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.API_MKS_Location.executor": "Run",
+    "Python.WhatNumber.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -56,7 +58,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.WhatNumber">
     <configuration name="API_MKS_Location" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FirstTgBot" />
       <option name="ENV_FILES" value="" />
@@ -71,6 +73,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_MKS_Location.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WhatNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FirstTgBot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WhatNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.WhatNumber" />
         <item itemvalue="Python.API_MKS_Location" />
       </list>
     </recent_temporary>
@@ -150,7 +175,55 @@
       <option name="project" value="LOCAL" />
       <updated>1708747653408</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="random cats image in tg bots">
+      <option name="closed" value="true" />
+      <created>1708792344378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708792344378</updated>
+    </task>
+    <task id="LOCAL-00005" summary="random cats image in tg bots">
+      <option name="closed" value="true" />
+      <created>1708831491844</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708831491844</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mini game &quot;What's for number&quot;">
+      <option name="closed" value="true" />
+      <created>1708831742467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708831742467</updated>
+    </task>
+    <task id="LOCAL-00007" summary="мини игра &quot;угадай число&quot; - РАБОТАЕТ!">
+      <option name="closed" value="true" />
+      <created>1708835946771</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708835946771</updated>
+    </task>
+    <task id="LOCAL-00008" summary="попыток  6, а то 7 это верный проигрыш проггггги">
+      <option name="closed" value="true" />
+      <created>1708837598138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708837598138</updated>
+    </task>
+    <task id="LOCAL-00009" summary="теперь это многопользовательская игра">
+      <option name="closed" value="true" />
+      <created>1708838955162</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708838955162</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +246,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="55448" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="random cats image in tg bots" />
+    <MESSAGE value="mini game &quot;What's for number&quot;" />
+    <MESSAGE value="мини игра &quot;угадай число&quot; - РАБОТАЕТ!" />
+    <MESSAGE value="попыток  6, а то 7 это верный проигрыш проггггги" />
+    <MESSAGE value="теперь это многопользовательская игра" />
+    <option name="LAST_COMMIT_MESSAGE" value="теперь это многопользовательская игра" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
